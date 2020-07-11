@@ -1,6 +1,7 @@
 package com.lzj.spring.context.support;
 
-import com.lzj.spring.beans.factory.BeanDefinition;
+
+import com.lzj.spring.beans.BeanDefinition;
 
 public class GenericBeanDefinition implements BeanDefinition {
     private  String id;
