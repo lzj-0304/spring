@@ -2,7 +2,7 @@ package com.lzj.test;
 
 import com.lzj.service.TestService;
 import com.lzj.spring.beans.factory.xml.XmlDefinitionReader;
-import com.lzj.spring.context.support.DefaultBeanFactory;
+import com.lzj.spring.beans.factory.support.DefaultBeanFactory;
 import com.lzj.spring.core.io.ClassPathResource;
 import com.lzj.spring.core.io.FileSystemResource;
 import com.lzj.spring.core.io.Resource;

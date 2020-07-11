@@ -21,4 +21,13 @@ public class ApplicationContextTest {
         TestService testService= (TestService) ac.getBean("testService");
         testService.test();
     }
+
+    @Test
+    public void test03(){
+        ApplicationContext ac=new ClasspathXmlApplicationContext("spring.xml");
+        TestService testService= (TestService) ac.getBean("testService");
+        TestService testService1 =(TestService) ac.getBean("testService");
+        System.out.println(testService+","+testService1);
+        //testService.test();
+    }
 }

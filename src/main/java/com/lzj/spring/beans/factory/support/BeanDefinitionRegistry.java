@@ -1,4 +1,4 @@
-package com.lzj.spring.context.support;
+package com.lzj.spring.beans.factory.support;
 
 import com.lzj.spring.beans.BeanDefinition;
 

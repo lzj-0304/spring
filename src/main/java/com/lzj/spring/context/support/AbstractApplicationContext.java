@@ -1,8 +1,8 @@
 package com.lzj.spring.context.support;
 
+import com.lzj.spring.beans.factory.support.DefaultBeanFactory;
 import com.lzj.spring.beans.factory.xml.XmlDefinitionReader;
 import com.lzj.spring.context.ApplicationContext;
-import com.lzj.spring.core.io.ClassPathResource;
 import com.lzj.spring.core.io.Resource;
 
 public abstract class AbstractApplicationContext implements ApplicationContext {
