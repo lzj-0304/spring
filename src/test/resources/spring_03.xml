@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="testService" class="com.lzj.service.TestService" scope="singleton" >
+        <property name="testDao" ref="testDao"></property>
+        <property name="uname" value="lzj"></property>
+        <property name="flag" value="1"></property>
+        <property name="age" value="18"></property>
+    </bean>
+
+
+    <bean id="testDao" class="com.lzj.dao.TestDao"></bean>
+
+    <bean id="testService2" class="com.lzj.service.TestService2"  >
+        <constructor-arg  ref="testDao"/>
+        <constructor-arg  value="lzj"/>
+        <property name="age" value="20"></property>
+    </bean>
+</beans>
